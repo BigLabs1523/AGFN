@@ -9,7 +9,7 @@ app.use('/css', express.static('CSS'));
 app.use('/images', express.static('images'))
 
 
-//On déclare le template ejs michel
+//On déclare le template ejs
 app.set('views','./views') ;
     app.set('view engine','ejs') ;
 
