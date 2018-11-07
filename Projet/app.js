@@ -7,6 +7,7 @@ const PORT = 8080;
 
 app.use('/css', express.static('CSS'));
 app.use('/images', express.static('images'))
+app.use('/fonts', express.static('fonts'))
 
 
 //On déclare le template ejs
