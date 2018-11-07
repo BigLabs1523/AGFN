@@ -2095,7 +2095,7 @@ aside#sidebar .team-btw-match ul li.vs span {
 	line-height: 1 !important;
 }
 
-#preloader {
+/*#preloader {
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -2106,7 +2106,7 @@ aside#sidebar .team-btw-match ul li.vs span {
 	z-index: 11000;
 	position: fixed;
 	display: block
-}
+}*/
 
 .preloader {
 	position: absolute;
