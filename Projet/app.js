@@ -104,4 +104,3 @@ app.use(function(error, req, res, next) {
     res.status(500);
     res.render('./erreurs/500.ejs', {title:'500: Erreur interne du serveur', error: error});
 });
-
