@@ -1,0 +1,6 @@
+#filigrane{
+    background-image:url('../images/logo/agfn.jpg');
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;
+}
