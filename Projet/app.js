@@ -22,12 +22,6 @@ app.listen(PORT, () => {
 
 //------------------------------------------------------------------------
 
-//Gestion des erreurs
-
-
-
-//------------------------------------------------------------------------
-
 //INDEX
 //Pour l'URL / affiche index
 app.get('/', (req,res) => {
@@ -94,3 +88,19 @@ app.get('/inscription', (req,res) => {
 app.get('/contact', (req,res) => {
     res.render("contact");
 });
+
+//------------------------------------------------------------------------
+
+//Gestion des erreurs
+// Handle 404
+app.use(function(req, res) {
+    res.status(400);
+    res.render('404.ejs', {title: '404: Fichier introuvable'});
+});
+
+// Handle 500
+app.use(function(error, req, res, next) {
+    res.status(500);
+    res.render('500.ejs', {title:'500: Erreur interne du serveur', error: error});
+});
+
