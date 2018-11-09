@@ -40,7 +40,7 @@ app.get('/activites', (req,res) => {
 //Methode de rooting
 app.get('/activites/:id', (req,res) => {
     const id = req.params.id ;
-    res.send(`Activité numero ${id}`) ;
+    res.render(`activites/activite_${id}`) ;
 });
 
 //------------------------------------------------------------------------
@@ -53,7 +53,7 @@ app.get('/lieux', (req,res) => {
 //Methode de rooting
 app.get('/lieux/:id', (req,res) => {
     const id = req.params.id ;
-    res.send(`lieu numero ${id}`) ;
+    res.render(`lieux/lieu_${id}`) ;
 });
 
 //------------------------------------------------------------------------
