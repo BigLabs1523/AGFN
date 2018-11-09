@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>formulaire 1</title>
+		<html lang="fr">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/formulaire v1.css">
+	</head>
+	<body>
+		<form method="post" action="">
+			<fieldset>Nom de famille*
+			<br>
+			<input type="text" name="Nom de famille" required></fieldset>
+			<br>
+			<fieldset>Prénom*
+			<br>
+			<input type="text" name="Prénom" required></fieldset>
+			<br>
+			<fieldset>date de naissance*
+			<br>
+		<span>
+	        <label for="day">Jour :</label>
+	        	<input type="number" min="1" max="31"required name="day">	
+	      </span>
+	      <span>
+	        <label for="month">Mois :</label>
+	        <select id="month" name="month" required class="select_mois">
+	         
+	         <div id="select_mois2"> 
+	         <option selected> Janvier</option>
+	          <option> Février</option>
+	          <option> Mars</option>
+	          <option> Avril</option>
+	          <option> Mai</option>
+	          <option> Juin</option>
+	          <option> Juillet</option>
+	          <option> Août</option>
+	          <option> Septembre</option>
+	          <option> Octobre</option>
+	          <option> Novembre</option>
+	          <option> Décembre</option></div>
+	          
+	        </select>
+	      </span>
+	      <span>
+	        <label for="year">Année :</label>
+	        	<input type="number" min="1901" value="Année" name="year" required>
+	      </span></fieldset>
+			<br>
+			<fieldset>courriel*
+			<br>
+			<input type="text" name="Adresse_Mail" required></fieldset>
+			<br>
+			<fieldset>numéro de téléphone*
+			<br>
+				<input type="tel" name="Numéro_de_téléphone" required placeholder="XX-XX-XX-XX-XX">
+			</fieldset>
+			<br>
+			<fieldset>sexe*
+			<br>
+			
+			<span>
+
+				<input type="radio" name="Sexe" value="Homme" required>homme
+			
+				<input type="radio" name="Sexe" value="Femme" required>femme
+			
+				<input type="radio" name="Sexe" value="Autre" checked required>autre
+			</span></fieldset>
+			<br>
+			<fieldset>profession
+			<br>
+			<input type="text" name="Profession (facultatif)"></fieldset>
+			<br>
+			<fieldset>photo d'identité*
+			<br>
+			<input type="file" name="Photo_d'identité" value="parcourir dans votre pc" required accept="image/*"></fieldset>
+			<br>
+			<fieldset>certificat médical (daté d'il y a moins de 3 ans)*
+			<br>
+			<input type="file" name="Certificat_médical" value="parcourir dans votre pc" required></fieldset>
+			<br>
+			<fieldset>questionnaire de santé (à remplir tous les ans)*
+				<br>
+				<span>
+				<fieldset class="fdst1">Durant les 12 derniers mois:
+					<fieldset class="fdst2">un membre de votre famille est-il décédé subitement d'une cause cardiaque ou inexpliquée?
+						<input type="radio" name="QS0" value="oui" required>oui
+						<input type="radio" name="QS0" value="non" required>non
+					</fieldset>
+					<fieldset class="fdst2">avez-vous ressenti une douleur dans la poitrine, des palpitations, un essouflement inhabituel ou un malaise?
+						<input type="radio" name="QS1" value="oui" required>oui
+						<input type="radio" name="QS1" value="non" required>non
+					</fieldset >
+					<fieldset class="fdst2">avez-vous eu un épisode de respiration sifflante (asthme)?
+						<input type="radio" name="QS2" value="oui" required>oui
+						<input type="radio" name="QS2" value="non" required>non
+					</fieldset>
+					<fieldset class="fdst2">avez-vous eu une perte de connaissance?
+						<input type="radio" name="QS3" value="oui" required>oui
+						<input type="radio" name="QS3" value="non" required>non
+					</fieldset>
+					<fieldset class="fdst2">Si vous avez arrêté le sport pendant 30 jours ou plus pour des raisons de santé, avez-vous repris sans l'accord du medecin?
+						<input type="radio" name="QS4" value="oui" required>oui
+						<input type="radio" name="QS4" value="non" required>non
+					</fieldset>
+					<fieldset class="fdst2">Avez-vous débuté un traitement médical de longue durée (hors contraception et désensibilisation aux allergies)?
+						<input type="radio" name="QS5" value="oui" required>oui
+						<input type="radio" name="QS5" value="non" required>non
+					</fieldset>
+					</fieldset>
+					<fieldset class="fdst1">À ce jour:
+						<fieldset class="fdst2">ressentez-vous une douleur, un manque de force, ou une raideur suite à un problème osseux, articulaire ou musculaire (fracture, entorse, luxation, déchirure, tendinite, etc) survenu durant les 12 derniers mois?
+							<input type="radio" name="QS6" value="oui" required>oui
+							<input type="radio" name="QS6" value="non" required>non
+						</fieldset>
+						<fieldset class="fdst2">votre pratique sportive est-elle interrompue pour des raisons de santé?
+						<input type="radio" name="QS7" value="oui" required>oui
+						<input type="radio" name="QS7" value="non" required>non
+					</fieldset>
+					<fieldset class="fdst2">pensez-vous avoir besoin d'un avis médical pour poursuivre votre pratique sportive?
+						<input type="radio" name="QS8" value="oui" required>oui
+						<input type="radio" name="QS8" value="non" required>non
+					</fieldset>
+				</fieldset>
+				NB: Les réponses formulées relèvent de la seule responsabilité du licensié.
+			</fieldset>
+			<i>Questionnaire de santé publié par l'Arrêté du 20 avril 2017 relatif au questionnaire de santé exigé pour le renouvellement d'une license sportive au JORF n°0105 du 4 mai 2017</i>
+			</span>
+			<br>
+			<br>
+			<br>
+			<input type="submit" name="prise_info+page_suivante" value="Valider">
+			
+		</form>
+		<div id="print*"><p>*</p></div>
+		<div id="info*" style="visibility: hidden;"><p>Champs obligatoires</p></div>
+		<script type="text/javascript" src="formulaire v1.js"></script>
+	</body>
+</html>
