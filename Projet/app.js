@@ -8,8 +8,6 @@ const PORT = 8080;
 //Appel des dossiers
 app.use('/css', express.static('CSS'));
 app.use('/images', express.static('images'))
-app.use('/fonts', express.static('font'))
-
 
 //On déclare le template ejs
 app.set('views','./views') ;
