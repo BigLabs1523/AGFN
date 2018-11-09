@@ -78,8 +78,9 @@ app.get('/connexion', (req,res) => {
 //------------------------------------------------------------------------
 
 //INSCRIPTION
-app.get('/inscription', (req,res) => {
-    res.render("inscription");
+app.get('/inscription/:id', (req,res) => {
+    const id = req.params.id ;
+    res.render(`inscription/${id}`) ;
 });
 
 //------------------------------------------------------------------------
