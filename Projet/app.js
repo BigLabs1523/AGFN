@@ -95,11 +95,11 @@ app.get('/contact', (req,res) => {
 // Handle 404
 app.use(function(req, res) {
     res.status(400);
-    res.render('./erreurs/404.ejs', {title: '404: Fichier introuvable'});
+    res.render('./erreurs/404.ejs', {title: '404: Fichier introuvable sale noob'});
 });
 
 // Handle 500
 app.use(function(error, req, res, next) {
     res.status(500);
-    res.render('./erreurs/500.ejs', {title:'500: Erreur interne du serveur', error: error});
+    res.render('./erreurs/500.ejs', {title:'500: Erreur interne du serveur, il a planté ce con', error: error});
 });
