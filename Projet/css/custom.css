@@ -18,6 +18,7 @@
      background-color: white;
     /* background-image:url('../images/bg1.jpg');*/
 }
+
  .carousel-indicators {
      bottom: 0;
 }
@@ -345,6 +346,15 @@
 }
  .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:hover, .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:focus {
      color: green;
+}
+.news {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    padding: 6px 0;
 }
 
  .heading-slider .headline {
