@@ -72,7 +72,7 @@ app.get('/animateurs', (req,res) => {
 
 //CONNEXION
 app.get('/connexion', (req,res) => {
-    res.render("connexion");
+    res.render("user/connexion");
 });
 
 app.get('/MonEspace', (req, res) =>{
