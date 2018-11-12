@@ -75,6 +75,14 @@ app.get('/connexion', (req,res) => {
     res.render("connexion");
 });
 
+app.get('/MonEspace', (req, res) =>{
+    res.render('user/espaceuser');
+});
+
+app.get('/MonEspace/Form2', (req, es) => {
+    res.render('user/form2');
+})
+
 //------------------------------------------------------------------------
 
 //INSCRIPTION
