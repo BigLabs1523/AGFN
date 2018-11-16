@@ -73,7 +73,6 @@ app.get('/animateurs', (req,res) => {
 
 //CONNEXION
 app.get('/connexion', (req,res) => {
-    console.log("i'm batman");
     res.render("user/connexion");
 });
 
