@@ -72,18 +72,14 @@ app.get('/animateurs', (req,res) => {
 //------------------------------------------------------------------------
 
 //CONNEXION
-app.get('/connexion', (req,res) => {
-    console.log("i'm batman");
-    res.render("user/connexion");
-});
-
 app.get('/MonEspace', (req, res) =>{
     res.render('user/espaceuser');
 });
 
-app.get('/MonEspace/Form2', (req, es) => {
-    res.render('user/form2');
-})
+app.get('/MonEspace/:id', (req,res) => {
+    const id = req.params.id ;
+    res.render(`user/${id}`) ;
+});
 
 //------------------------------------------------------------------------
 
