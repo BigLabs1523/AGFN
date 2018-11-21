@@ -14,9 +14,13 @@
  body {
      overflow-x:hidden;
 }
- .deepskyblue {
-     background-color: white;
-    /* background-image:url('../images/bg1.jpg');*/
+ .bg_img{
+     /*background-color: white;*/
+    background-image:url('../images/logo/agfn.jpg');
+    /*background-size: 100%;
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;*/
 }
 
  .carousel-indicators {
@@ -53,8 +57,9 @@
      animation-delay: 3s;
 }
  .full-slider div.item {
-     background-size: cover;
-     background-position: center center;
+    /* background-size: cover;
+     background-position: center center;*/
+    
 }
  h1 {
      text-align: center;
@@ -70,12 +75,13 @@
      text-decoration: underline;
 }
  .item {
-     display: none;
+    border: solid black;
+     display: block;
+     
      position: relative;
      .transition(s ease-in-out left);
 }
  .slider-contant h3 {
-     border: solid #000;
      margin-top: -55%;
      margin-left: -71%;
      width: 617%;
@@ -91,21 +97,10 @@
      padding-bottom: 30px;
 }
  .color-green {
-     color:green;
+     color: rgb(87, 207, 39);
 }
- /*.carousel-caption article {
-     left: 0%;
-     top: 70%;
-     font-size: 15px;
-     text-align: left;
-     font-weight: 400;
-     color: #000;
-     line-height: 24px;
-}*/
 
  #carousel-example-generic .carousel-caption {
-    border: solid;
-    color: black;
     left: 12.5%;
     right: 12.5%;
     z-index: 10;
@@ -113,7 +108,20 @@
     padding-bottom: 50px; 
     height: 50%;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
-    
+}
+.presentation{
+    border: solid #000;
+    position: relative;
+    top: 460px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: block;
+    color: black;
+    height: 150%;
+    z-index: 11;
+}
+.presentation #liste{
+    text-align: left;
 }
 
  header { /* bannière agfn */
@@ -144,7 +152,7 @@
      padding: 9px 25px;
      color: #fff;
      font-size: 13px;
-     background: green;
+     background: rgb(87, 207, 39);
      border-radius: 50px;
      float: left;
 }
@@ -170,7 +178,7 @@
      float: left;
      width: 100%;
      min-height: auto;
-     background: green;
+     background: rgb(87, 207, 39);
 }
  .main-menu-section {
      float: right;
@@ -329,7 +337,7 @@
      width: 147.2%;
      top: 70px;
 }
- div.menu .dropdown-menu {
+div.menu .dropdown-menu {
      border: none;
      border-top: solid #ddd 1px;
 }
@@ -339,15 +347,16 @@
      box-shadow: none;
 }
  .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:hover, .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:focus {
-     color: green;
+     color: rgb(87, 207, 39);
 }
 .news {
+    border: solid black;
     float: left;
     width: 100%;
     min-height: 50px;
-    background: green;
+    background: rgb(87, 207, 39);
     position: absolute;
-    bottom: 0;
+    bottom: -30%;
     padding: 6px 0;
 }
 
@@ -364,12 +373,13 @@
      font-weight: 400;
 }
  .heading-slider {
+     border: solid rgb(87, 207, 39)
      float: left;
      width: 100%;
      padding: 6px 0 0;
 }
  .typewrite {
-    border: solid green;
+    border: solid rgb(87, 207, 39);
      color: #fff;
      font-weight: 400;
      font-size: 14px;
@@ -626,7 +636,7 @@
 }
 
  .footer-links a:hover, .footer a:hover {
-     color: green !important;
+     color: rgb(87, 207, 39) !important;
 }
  .information h3 {
      color: #222;
@@ -893,7 +903,7 @@ section#contant h4 {
      left: auto;
      height: 100%;
      line-height: 58px;
-     background: green;
+     background: rgb(87, 207, 39);
      color: #fff;
      width: 48px;
      border: 0;
@@ -917,7 +927,7 @@ section#contant h4 {
      position: absolute;
      bottom: 100%;
      left: 0;
-     background: green;
+     background: rgb(87, 207, 39);
      z-index: 1;
      padding: 3px 20px 2px;
      text-transform: capitalize;
@@ -932,7 +942,7 @@ section#contant h4 {
     top: -0.5px;
     width: 0;
     height: 0;
-    border-bottom: 30px solid green;
+    border-bottom: 30px solid rgb(87, 207, 39);
     border-right: 20px solid transparent;
 }
  .team-column.style-2 .overlay {
