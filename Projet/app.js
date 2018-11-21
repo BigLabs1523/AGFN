@@ -72,7 +72,7 @@ app.get('/animateurs', (req,res) => {
 //------------------------------------------------------------------------
 
 //CONNEXION
-app.get('/connexion', (req,res) => {
+/*app.get('/connexion', (req,res) => {
     res.render("user/connexion");
 });
 
@@ -82,7 +82,7 @@ app.get('/MonEspace', (req, res) =>{
 
 app.get('/MonEspace/Form2', (req, es) => {
     res.render('user/form2');
-})
+})*/
 
 //------------------------------------------------------------------------
 
