@@ -80,7 +80,7 @@ app.get('/MonEspace', (req, res) =>{
     res.render('user/espaceuser');
 });
 
-app.get('/MonEspace/Form2', (req, es) => {
+app.get('/MonEspace/Form2', (req, res) => {
     res.render('user/form2');
 })
 
@@ -104,7 +104,7 @@ app.get('/contact', (req,res) => {
 //Gestion des erreurs
 // Handle 404
 app.use(function(req, res) {
-    res.status(400);
+    res.status(404);
     res.render('./erreurs/404.ejs', {title: '404: Fichier introuvable sale noob'});
 });
 
