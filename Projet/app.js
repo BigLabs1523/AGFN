@@ -82,7 +82,7 @@ app.get('/MonEspace', (req, res) =>{
 
 app.get('/MonEspace/Form2', (req, res) => {
     res.render('user/form2');
-})
+});
 
 //------------------------------------------------------------------------
 
