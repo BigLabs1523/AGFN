@@ -1,6 +1,13 @@
 /****************************************** 
 	File Name: custom.css 
 /******************************************/
+.all {width: 80%}
+@media (max-width: 640px) {
+.all {
+position: relative;
+bottom: 0;
+}
+}
 /** ADD YOUR AWESOME CODES HERE **/
  * {
     font-family: 'Poppins', sans-serif;
@@ -82,7 +89,7 @@
      .transition(s ease-in-out left);
 }
  .slider-contant h3 {
-     margin-top: -55%;
+     margin-top: -305%;
      margin-left: -71%;
      width: 617%;
      font-size: 58px;
@@ -109,42 +116,64 @@
     height: 50%;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
-
-.defilement{
+/* carroussel photos */
+#slideshow ul{
+    margin-top: 30%;
     position: relative;
-    top: 445px;
- 
+    display: table;
+    width:2700px;
+    -webkit-animation: slideAnim 20s ease 0s infinite;
+       -moz-animation: slideAnim 20s ease 0s infinite;
+        -ms-animation: slideAnim 20s ease 0s infinite;
+         -o-animation: slideAnim 20s ease 0s infinite;
+            animation: slideAnim 20s ease 0s infinite;
 }
-.defilement #tee_shirt_rose{
-    margin-left: 5%;
+
+#slideshow ul li{
+    display: table-cell;
+    width:300px;
 }
-.defilement #abdos{
-    margin-left: 8%;
+
+@keyframes slideAnim{
+from,11%,to {margin-left:0px;}
+15%,26%{margin-left:-430px;}
+30%,41%{margin-left:-880px;}
+45%,56%{margin-left:-1330px;}
+65%,76%{margin-left:-880px;}
+80%,91%{margin-left:-430px;}
+99.99%{margin-left:0px;}
 }
-.defilement #mamiroir{
-    margin-left: 8%;
-}
+
+/*fin carroussel photos */
+
 
 .presentation{
     position: relative;
-    top: 510px;
+    font-size: 26px;
+    top: 80px;
     margin-left: 3%;
     margin-right: 3%;
     display: block;
     color: black;
-    height: 150%;
+    height: 130%;
     z-index: 11;
+    background-image: url(../images/logo/logo_agfn_opaque.png);
+    background-size: 67%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .presentation p{
     text-align: left;
+    font-size: 26px;
 }
 
 .presentation #liste{
     text-align: left;
-    
+    font-size: 26px;
 }
 .presentation .decalage{
     margin-left: 30px;
+    font-size: 26px;
 }
 
  header { /* bannière agfn */
@@ -644,16 +673,7 @@ div.menu .dropdown-menu {
      padding: 0;
      line-height: 32px;
 }
- .contact-footer {
-     float: left;
-     width: 100%;
-     position: relative;
-     height: 100%;
-     background: orange;
-     top: 0;
-     left: 0;
-     min-height: 350px;
-}
+
  .contact-footer iframe {
      float: left;
      width: 100%;
@@ -702,6 +722,10 @@ div.menu .dropdown-menu {
      font-weight: 300;
      font-size: 14px;
 }
+.color-white{
+    color: white;
+}
+
  .footer-bottom {
      float: left;
      width: 100%;
@@ -883,9 +907,10 @@ section#contant h4 {
      left: 100%;
 }
  .theme-padding.middle-bg {
+    border: solid black;
      padding-top: 100px;
      padding-bottom: 100px;
-     background-image: url(../images/flash_info_fond.png);
+     /*background-image: url(../images/flash_info_fond.png);*/
      background-repeat: no-repeat;
      background-position: top center;
      position: relative;

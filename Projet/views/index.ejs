@@ -1,3 +1,4 @@
+<div class="all">
 <% include ../partials/header.ejs %>
         <div class="full-slider">
             <div id="carousel-example-generic" class="carousel slide" >
@@ -14,11 +15,17 @@
                               </div>
                             </div>             
                         </div>
-                        <div class="defilement">
-                           <img src="../images/IMG_3065.JPG" id="tee_shirt_rose">
-                           <img src="../images/IMG_3062.JPG" id="abdos">
-                           <img src="../images/IMG_3059.JPG" id="mamiroir">
-                        </div>
+         
+                        <div id="slideshow">
+                           <ul id="sContent">
+                             <li><img src="../images/IMG_3065.JPG" alt></li>
+                             <li><img src="../images/IMG_3062.JPG" alt></li> 
+                             <li><img src="../images/IMG_3059.JPG" alt></li>
+                             <li> <img src="../images/CIRQUE_DE_MOUREZE_011.JPG" alt></li>
+                             <li> <img src="../images/CIRQUE_DE_MOUREZE_070.JPG" alt></li>
+                             <li> <img src="../images/CIRQUE_DE_MOUREZE_071.JPG" alt></li>
+                           </ul>
+                         </div>
                         <span class="presentation">
                            <p><strong>L’ASSOCIATION DE GYMNASTIQUE FAMILALE NIMOISE - A.G.F.N.- </strong>est une association loi 1901, 
                            affiliée à la FFEPGV « Fédération Française d’Education Physique et de Gymnastique Volontaire », 
@@ -58,13 +65,15 @@
                            </p> 
                            <p>Nous vous invitons à découvrir notre site où les informations sont données en temps réel.
                               <br />
-                           Tous les onglets vous livreront leurs secrets, vous pourrez prendre connaissance du programme 2017/2018 : les cours dans les différents sites, 
+                              <br />
+                           Tous les onglets vous livreront leurs secrets, vous pourrez prendre connaissance du programme 2017/2018 : 
+                           <br />
+                           <br />
+                           Les cours dans les différents sites, 
                            nos animateurs, 
                            les programmes de randonnées et marche nordique, les stages.
                            </p> 
-
-                        </span>
-                        
+                        </span>                        
                     </div>
                   </div>
                </div>
@@ -87,7 +96,8 @@
                      <div class="main-heading sytle-2">
                          <br />
                         <h2>Flash info</h2>
-                        <p>Ajouter du contenu<br>supplémentaire</p>
+                        <br />
+                        <p><strong>Suivez en direct</strong><br>Toute l'actualité de l'AGFN !</p>
                      </div>
                   </div>
                </div>
@@ -100,6 +110,11 @@
                <div class="col-md-12">
                   <div class="full">
                      <div class="match_vedio">
+                        <span style="color: red ; font-size: 35px;"> Alerte INFO !! </span>
+                        <p style="font-size: 25px">Les étudiants d'In'Tech-sud Nîmes ont aujourd'hui un Rendez-vous de présentation !</p>
+                        <br />
+                        <span style="color: red; font-size: 35px;"> Rendez-vous du jour :</span>
+                        <p style="font-size: 25px">Sortie à Nemausa</p>
                         <!--<img class="img-responsive" src="images/img-07.jpg" alt="#" />-->
                      </div>
                   </div>
@@ -108,4 +123,5 @@
          </div>
       </section>
 <% include ../partials/footer %>
+</div>
 </html>
