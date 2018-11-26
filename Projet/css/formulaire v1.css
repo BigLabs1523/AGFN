@@ -1,3 +1,19 @@
 fieldset{
 	border-radius: 15px;
+	border-color: #129292;
 }
+input{
+    color: #129292;
+}
+.colortext{
+    color: #129292;
+}
+.espacement{
+	padding: 20px;
+}
+body{
+	background-image: url(../images/logo/logo_agfn_opaque.png);
+	background-size: 150%;
+	background-repeat: no-repeat;
+}
+

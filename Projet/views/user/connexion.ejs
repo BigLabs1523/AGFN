@@ -1,14 +1,23 @@
 <% include ../../partials/header.ejs %>
 
-<div id="button_well_placed">
+
 <form action="" method="POST">
-    <input class="input" type="text"><span class="colortext">votre nom d'utilisateur (reçu par courriel)</span>
+    <div id="button_well_placed">
+    <div class="colortext">Votre nom d'utilisateur (reçu par courriel)</div>
+   
+    <input class="input" type="text">
     <br>
-    <input class="input" type="password" minlength="8" maxlength="16"><span class="colortext">votre mot de passe (reçu par courriel)</span>
     <br>
-    <a href="MonEspace"><!--<input class="input" type="button" onclick="document.location.replace('localhost:8080/MonEspace')" value="Accéder à mon espace">-->Accéder à mon espace</a>
-</form>
+
+    <div class="colortext">Votre mot de passe (reçu par courriel)</div>
+    
+    <input class="input" type="password" minlength="8" maxlength="16">
+    <br>
+    <br>
+    <a href="MonEspace"><input type="button" name="" class="input" value="Accéder à mon espace"></a>
 </div>
+</form>
+
 <div class="inner-page-banner">
 </div>
 <% include ../../partials/footer %>

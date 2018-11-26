@@ -11,17 +11,20 @@
 	</head>
 	<body>
 		<form method="post" action="">
-			<fieldset>Nom de famille*
+			<div class="espacement"><fieldset> <div class="colortext"> Nom de famille*</div>
 			<br>
-			<input type="text" name="Nom de famille" required></fieldset>
+			<input type="text" name="Nom de famille" required></fieldset></div>
 			<br>
-			<fieldset>Prénom*
+			<div class="espacement"><fieldset><div class="colortext">Prénom*</div>
 			<br>
-			<input type="text" name="Prénom" required></fieldset>
+			<input type="text" name="Prénom" required></fieldset></div>
 			<br>
-			<fieldset>date de naissance*
+			<div class="espacement"><fieldset><div class="colortext">Date de Naissance*</div>
 			<br>
-		<span>
+			<input type="date" required>
+			</fieldset></div>
+		<!--ancien format date
+			<span>
 	        <label for="day">Jour :</label>
 	        	<input type="number" min="1" max="31"required name="day">	
 	      </span>
@@ -48,86 +51,86 @@
 	      <span>
 	        <label for="year">Année :</label>
 	        	<input type="number" min="1901" value="Année" name="year" required>
-	      </span></fieldset>
+	      </span></fieldset>-->
 			<br>
-			<fieldset>courriel*
+			<div class="espacement"><fieldset><div class="colortext">Courriel*</div>
 			<br>
-			<input type="text" name="Adresse_Mail" required></fieldset>
+			<input type="text" name="Adresse_Mail" required></fieldset></div>
 			<br>
-			<fieldset>numéro de téléphone*
+			<div class="espacement"><fieldset><div class="colortext">Numéro de Téléphone*</div>
 			<br>
-				<input type="tel" name="Numéro_de_téléphone" required placeholder="XX-XX-XX-XX-XX">
+				<input type="tel" name="Numéro_de_téléphone" required placeholder="XX-XX-XX-XX-XX"></div>
 			</fieldset>
 			<br>
-			<fieldset>sexe*
+			<div class="espacement"><fieldset><div class="colortext">Sexe*</div>
 			<br>
 			
 			<span>
 
-				<input type="radio" name="Sexe" value="Homme" required>homme
+				<div class="colortext">Homme<input type="radio" name="Sexe" value="Homme" required></div>
 			
-				<input type="radio" name="Sexe" value="Femme" required>femme
+				<div class="colortext">Femme<input type="radio" name="Sexe" value="Femme" required></div>
 			
-				<input type="radio" name="Sexe" value="Autre" checked required>autre
-			</span></fieldset>
+				<div class="colortext">Autre<input type="radio" name="Sexe" value="Autre" checked required></div>
+			</span></fieldset></div>
 			<br>
-			<fieldset>profession
+			<div class="espacement"><fieldset><div class="colortext">Profession</div>
 			<br>
-			<input type="text" name="Profession (facultatif)"></fieldset>
+			<input type="text" name="Profession (facultatif)"></fieldset></div>
 			<br>
-			<fieldset>photo d'identité*
+			<div class="espacement"><fieldset><div class="colortext">Photo d'Identité*</div>
 			<br>
-			<input type="file" name="Photo_d'identité" value="parcourir dans votre pc" required accept="image/*"></fieldset>
+			<div class="espacement"></div><input type="file" name="Photo_d'identité" value="parcourir dans votre pc" required accept="image/*"></fieldset></div>
 			<br>
-			<fieldset>certificat médical (daté d'il y a moins de 3 ans)*
+			<div class="espacement"><fieldset><div class="colortext">Certificat Médical (daté d'il y a moins de 3 ans)*</div>
 			<br>
-			<input type="file" name="Certificat_médical" value="parcourir dans votre pc" required></fieldset>
+			<input type="file" name="Certificat_médical" value="parcourir dans votre pc" required></fieldset></div>
 			<br>
-			<fieldset>questionnaire de santé (à remplir tous les ans)*
+			<div class="espacement"><fieldset><div class="colortext">Questionnaire de Santé (à remplir tous les ans)*</div>
 				<br>
 				<span>
-				<fieldset class="fdst1">Durant les 12 derniers mois:
-					<fieldset class="fdst2">un membre de votre famille est-il décédé subitement d'une cause cardiaque ou inexpliquée?
-						<input type="radio" name="QS0" value="oui" required>oui
-						<input type="radio" name="QS0" value="non" required>non
-					</fieldset>
-					<fieldset class="fdst2">avez-vous ressenti une douleur dans la poitrine, des palpitations, un essouflement inhabituel ou un malaise?
-						<input type="radio" name="QS1" value="oui" required>oui
-						<input type="radio" name="QS1" value="non" required>non
-					</fieldset >
-					<fieldset class="fdst2">avez-vous eu un épisode de respiration sifflante (asthme)?
-						<input type="radio" name="QS2" value="oui" required>oui
-						<input type="radio" name="QS2" value="non" required>non
-					</fieldset>
-					<fieldset class="fdst2">avez-vous eu une perte de connaissance?
-						<input type="radio" name="QS3" value="oui" required>oui
-						<input type="radio" name="QS3" value="non" required>non
-					</fieldset>
-					<fieldset class="fdst2">Si vous avez arrêté le sport pendant 30 jours ou plus pour des raisons de santé, avez-vous repris sans l'accord du medecin?
-						<input type="radio" name="QS4" value="oui" required>oui
-						<input type="radio" name="QS4" value="non" required>non
-					</fieldset>
-					<fieldset class="fdst2">Avez-vous débuté un traitement médical de longue durée (hors contraception et désensibilisation aux allergies)?
-						<input type="radio" name="QS5" value="oui" required>oui
-						<input type="radio" name="QS5" value="non" required>non
-					</fieldset>
-					</fieldset>
-					<fieldset class="fdst1">À ce jour:
-						<fieldset class="fdst2">ressentez-vous une douleur, un manque de force, ou une raideur suite à un problème osseux, articulaire ou musculaire (fracture, entorse, luxation, déchirure, tendinite, etc) survenu durant les 12 derniers mois?
-							<input type="radio" name="QS6" value="oui" required>oui
-							<input type="radio" name="QS6" value="non" required>non
-						</fieldset>
-						<fieldset class="fdst2">votre pratique sportive est-elle interrompue pour des raisons de santé?
-						<input type="radio" name="QS7" value="oui" required>oui
-						<input type="radio" name="QS7" value="non" required>non
-					</fieldset>
-					<fieldset class="fdst2">pensez-vous avoir besoin d'un avis médical pour poursuivre votre pratique sportive?
-						<input type="radio" name="QS8" value="oui" required>oui
-						<input type="radio" name="QS8" value="non" required>non
-					</fieldset>
-				</fieldset>
-				NB: Les réponses formulées relèvent de la seule responsabilité du licensié.
-			</fieldset>
+						<div class="espacement"><fieldset class="fdst1"><div class="colortext">Durant les 12 derniers mois:</div>
+							<div class="espacement"><fieldset class="fdst2"><div class="colortext">Un membre de votre famille est-il décédé subitement d'une cause cardiaque ou inexpliquée?</div>
+						<input type="radio" class="radio" name="QS0" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS0" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous ressenti une douleur dans la poitrine, des palpitations, un essouflement inhabituel ou un malaise?</div>
+						<input type="radio" name="QS1" class="radio" value="oui" required><div class="colortext">oui</div>
+						<input type="radio"  name="QS1" class="radio" value="non" required><div class="colortext">non</div>
+					</fieldset ></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous eu un épisode de respiration sifflante (asthme)?</div>
+						<input type="radio" class="radio" name="QS2" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS2" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous eu une perte de connaissance?</div>
+						<input type="radio" class="radio" name="QS3" class="radio" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS3" class="radio" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Si vous avez arrêté le sport pendant 30 jours ou plus pour des raisons de santé, avez-vous repris sans l'accord du medecin?</div>
+						<input type="radio" class="radio" name="QS4" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS4" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous débuté un traitement médical de longue durée (hors contraception et désensibilisation aux allergies)?</div>
+						<input type="radio" class="radio" name="QS5" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS5" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst1"><div class="colortext">À ce jour:</div>
+						<div class="espacement"><fieldset class="fdst2"><div class="colortext">Ressentez-vous une douleur, un manque de force, ou une raideur suite à un problème osseux, articulaire ou musculaire (fracture, entorse, luxation, déchirure, tendinite, etc) survenu durant les 12 derniers mois?</div>
+							<input type="radio" class="radio" name="QS6" value="oui" required><div class="colortext">oui</div>
+							<input type="radio" class="radio" name="QS6" value="non" required><div class="colortext">non</div>
+						</fieldset></div>
+						<div class="espacement"><fieldset class="fdst2"><div class="colortext">Votre pratique sportive est-elle interrompue pour des raisons de santé?</div>
+						<input type="radio" class="radio" name="QS7" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS7" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+					<div class="espacement"><fieldset class="fdst2"><div class="colortext">Pensez-vous avoir besoin d'un avis médical pour poursuivre votre pratique sportive?</div>
+						<input type="radio" class="radio" name="QS8" value="oui" required><div class="colortext">oui</div>
+						<input type="radio" class="radio" name="QS8" value="non" required><div class="colortext">non</div>
+					</fieldset></div>
+				</fieldset></div>
+				<div class="colortext">NB: Les réponses formulées relèvent de la seule responsabilité du licensié.</div>
+			</fieldset></div>
 			<i>Questionnaire de santé publié par l'Arrêté du 20 avril 2017 relatif au questionnaire de santé exigé pour le renouvellement d'une license sportive au JORF n°0105 du 4 mai 2017</i>
 			</span>
 			<br>
