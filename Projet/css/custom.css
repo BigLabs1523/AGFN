@@ -844,6 +844,7 @@ section#contant h4 {
 }
  .main-heading-holder {
      text-align: center;
+     margin-top: -15%;
      padding-bottom: 0;
      padding-top: 30px;
      float: left;
