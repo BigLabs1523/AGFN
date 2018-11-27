@@ -81,8 +81,9 @@ app.get('/MonEspace', (req, res) =>{
     res.render('user/espaceuser');
 });
 
-app.get('/MonEspace/Form2', (req, res) => {
+app.get('/MonEspace/Form2', (req, res) =>{
     res.render('user/form2');
+    console.log('Jean-Marc, JEAN-MARC SOULS!!')
 });
 
 app.get('/MonEspace/Questionnaire_Sante', (req, res) => {

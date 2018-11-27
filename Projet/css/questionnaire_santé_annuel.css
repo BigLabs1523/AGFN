@@ -11,3 +11,16 @@ input{
 .espacement{
 	padding: 20px;
 }
+#centerbutton{
+    display: block;
+    margin : auto;
+
+}
+
+
+body{
+	background-image: url(../images/logo/logo_agfn_opaque.png);
+	background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
