@@ -110,7 +110,7 @@ app.get('/contact', (req,res) => {
 // Handle 404
 app.use(function(req, res) {
     res.status(404);
-    res.render('./erreurs/404.ejs', {title: '404: Fichier introuvable sale noob'});
+    res.render('./erreurs/404.ejs');
 });
 
 // Handle 500
