@@ -844,6 +844,7 @@ section#contant h4 {
 }
  .main-heading-holder {
      text-align: center;
+     margin-top: -15%;
      padding-bottom: 0;
      padding-top: 30px;
      float: left;
@@ -1485,3 +1486,130 @@ section#contant h4 {
          min-height: auto;
     }
 }
+/* activités */
+.liste_activites{
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.aerobic-LIA{
+    text-align: center;
+    width: 33.3%;
+}
+.aerobic_abs{
+    text-align: center;
+    width: 33.3%;
+}
+.aquabiking{
+    text-align: center;
+    width: 33.3%;
+}
+.aquagym{
+    text-align: center;
+    width: 33.3%;
+}
+.aquamix{
+    text-align: center;
+    width: 33.3%;
+}
+.body_fit{
+    text-align: center;
+    width: 33.3%;
+}
+.body_soft{
+    text-align: center;
+    width: 33.3%;
+}
+.body_zen{
+    text-align: center;
+    width: 33.3%;
+}
+.etirements{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_cardio_LIA{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_cardio_muscu{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_douce{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_form_tonic{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_jazz{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_tonic{
+    text-align: center;
+    width: 33.3%;
+}
+.gym_tonic_etirements{
+    text-align: center;
+    width: 33.3%;
+}
+.marche_exercice{
+    text-align: center;
+    width: 33.3%;
+}
+.muscu_appareils{
+    text-align: center;
+    width: 33.3%;
+}
+.natation{
+    text-align: center;
+    width: 33.3%;
+}
+.pilates{
+    text-align: center;
+    width: 33.3%;
+}
+.pilates_ballons{
+    text-align: center;
+    width: 33.3%;
+}
+.piloxing{
+    text-align: center;
+    width: 33.3%;
+}
+.qi_gong{
+    text-align: center;
+    width: 33.3%;
+}
+.renfo_muscu{
+    text-align: center;
+    width: 33.3%;
+}
+.scult_gym{
+    text-align: center;
+    width: 33.3%;
+}
+.scult_gym_stretch{
+    text-align: center;
+    width: 33.3%;
+}
+.sophrologie{
+    text-align: center;
+    width: 33.3%;
+}
+.stretching{
+    text-align: center;
+    width: 33.3%;
+}
+.tai_chi{
+    text-align: center;
+    width: 33.3%;
+}
+.yoga{
+    text-align: center;
+    width: 33.3%;
+}
+/* fin activités */

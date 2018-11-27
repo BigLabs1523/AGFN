@@ -39,7 +39,8 @@ app.get('/activites', (req,res) => {
 //Methode de rooting
 app.get('/activites/:id', (req,res) => {
     const id = req.params.id ;
-    res.render(`activites/activite_${id}`) ;
+    console.log("fonctionne "+ id);
+    res.render(`activites/activite_${id}`);
 });
 
 //------------------------------------------------------------------------
