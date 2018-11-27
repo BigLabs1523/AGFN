@@ -84,6 +84,10 @@ app.get('/MonEspace/Form2', (req, res) => {
     res.render('user/form2');
 });
 
+app.get('/MonEspace/Questionnaire_Sante', (req, res) => {
+    res.render('user/questionnaire_santé_annuel');
+});
+
 //------------------------------------------------------------------------
 
 //INSCRIPTION
