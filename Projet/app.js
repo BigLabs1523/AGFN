@@ -80,15 +80,16 @@ app.get('/MonEspace', (req, res) =>{
     res.render('user/espaceuser');
 });
 
-app.get('/MonEspace/Form2', (req, res) =>{
-    res.render('user/form2');
-    console.log('Jean-Marc, JEAN-MARC SOULS!!')
-});
+
 
 app.get('/MonEspace/Questionnaire_Sante', (req, res) => {
     res.render('user/questionnaire_santé_annuel');
 });
 
+app.get('/MonEspace/Selection-Activites', (req, res) =>{
+    res.render('user/select_activite');
+    console.log('Jean-Marc, JEAN-MARC SOULS!!');
+});
 //------------------------------------------------------------------------
 
 //INSCRIPTION
