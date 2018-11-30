@@ -4,7 +4,7 @@
 
 La licence MIT ou licence X11 est une licence de logiciel utilisée notamment pour la diffusion du gestionnaire de fenêtre X11 (ou X Window System). Elle est aussi appelée Licence MIT car elle provient du Massachusetts Institute of Technology (MIT), mais l'appellation est impropre car le MIT utilise aussi d'autres licences logicielles.
 
-C'est une licence de logiciel libre1 et open source2, non copyleft, permettant donc d'inclure des modifications sous d'autres licences, y compris non libres.
+C'est une licence de logiciel libre et open source,  permettant donc d'inclure des modifications sous d'autres licences, y compris non libres.
 
 La licence donne à toute personne recevant le logiciel le droit illimité de l'utiliser, le copier, le modifier, le fusionner, le publier, le distribuer, le vendre et de changer sa licence. La seule obligation est de mettre le nom des auteurs avec la notice de copyright.
 
