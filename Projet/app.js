@@ -24,7 +24,7 @@ app.listen(PORT, () => {
 //------------------------------------------------------------------------
 
 //INDEX
-//Pour l'URL / affiche index
+//Pour l'URL '/' affiche 'index'
 app.get('/', (req,res) => {
     res.render("index") ;
 });
@@ -80,8 +80,6 @@ app.get('/MonEspace', (req, res) =>{
     res.render('user/espaceuser');
 });
 
-
-
 app.get('/MonEspace/Questionnaire_Sante', (req, res) => {
     res.render('user/questionnaire_santé_annuel');
 });
@@ -90,6 +88,7 @@ app.get('/MonEspace/Selection-Activites', (req, res) =>{
     res.render('user/select_activite');
     console.log('Jean-Marc, JEAN-MARC SOULS!!');
 });
+
 //------------------------------------------------------------------------
 
 //INSCRIPTION
@@ -108,13 +107,13 @@ app.get('/contact', (req,res) => {
 //------------------------------------------------------------------------
 
 //Gestion des erreurs
-// Handle 404
+//404
 app.use(function(req, res) {
     res.status(404);
     res.render('./erreurs/404.ejs');
 });
 
-// Handle 500
+//500
 app.use(function(error, req, res, next) {
     res.status(500);
     res.render('./erreurs/500.ejs', {title:'500: Erreur interne du serveur, il a planté ce con', error: error});
