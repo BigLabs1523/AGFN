@@ -1610,3 +1610,38 @@ section#contant h4 {
     width: 33.3%;
 }
 /* fin activités */
+
+/* bureau */
+.membres_bureau{
+    font-weight: bold;
+}
+.president{
+    text-align: center;
+    width: 20%;
+}
+.membre_1{
+    text-align: center;
+    width: 20%;
+}
+.membre_2{
+    text-align: center;
+    width: 20%;
+}
+.membre_3{
+    text-align: center;
+    width: 20%;
+}
+.membre_4{
+    text-align: center;
+    width: 20%;
+}
+
+/* fin bureau */
+
+/* contact */
+.cadre{
+    border: solid black;
+    width: 30%;
+}
+
+/* fin contact */
