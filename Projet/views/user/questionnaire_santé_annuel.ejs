@@ -1,55 +1,64 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <% include ../../partials/header.ejs %>
-    
-    <div class="espacement"><fieldset><div class="colortext">Questionnaire de Santé (à remplir tous les ans)*</div>
+    <head>
+        <link rel="stylesheet" href="../../../css/questionnaire_santé_annuel.css">
+        <link rel="stylesheet" href="">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>    
+                    
+    <form action="" method="POST">
+    <div class="espacement"><fieldset><span class="colortext">Questionnaire de Santé (à remplir tous les ans)</span>
         <br>
-        <span>
-                <div class="espacement"><fieldset class="fdst1"><div class="colortext">Durant les 12 derniers mois:</div>
-                    <div class="espacement"><fieldset class="fdst2"><div class="colortext">Un membre de votre famille est-il décédé subitement d'une cause cardiaque ou inexpliquée?</div>
-                <input type="radio" class="radio" name="QS0" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS0" value="non" required><div class="colortext">non</div>
+        
+                <div class="espacement"><fieldset class="fdst1"><span class="colortext">Durant les 12 derniers mois:</span>
+                    <div class="espacement"><fieldset class="fdst2"><span class="colortext">Un membre de votre famille est-il décédé subitement d'une cause cardiaque ou inexpliquée?</span>
+                <input type="radio" class="radio" name="QS0" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS0" value="non" required><span class="colortext">non</span>
             </fieldset></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous ressenti une douleur dans la poitrine, des palpitations, un essouflement inhabituel ou un malaise?</div>
-                <input type="radio" name="QS1" class="radio" value="oui" required><div class="colortext">oui</div>
-                <input type="radio"  name="QS1" class="radio" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Avez-vous ressenti une douleur dans la poitrine, des palpitations, un essouflement inhabituel ou un malaise?</span>
+                <input type="radio" name="QS1" class="radio" value="oui" required><span class="colortext">oui</span>
+                <input type="radio"  name="QS1" class="radio" value="non" required><span class="colortext">non</span>
             </fieldset ></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous eu un épisode de respiration sifflante (asthme)?</div>
-                <input type="radio" class="radio" name="QS2" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS2" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Avez-vous eu un épisode de respiration sifflante (asthme)?</span>
+                <input type="radio" class="radio" name="QS2" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS2" value="non" required><span class="colortext">non</span>
             </fieldset></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous eu une perte de connaissance?</div>
-                <input type="radio" class="radio" name="QS3" class="radio" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS3" class="radio" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Avez-vous eu une perte de connaissance?</span>
+                <input type="radio" class="radio" name="QS3" class="radio" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS3" class="radio" value="non" required><span class="colortext">non</span>
             </fieldset></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Si vous avez arrêté le sport pendant 30 jours ou plus pour des raisons de santé, avez-vous repris sans l'accord du medecin?</div>
-                <input type="radio" class="radio" name="QS4" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS4" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Si vous avez arrêté le sport pendant 30 jours ou plus pour des raisons de santé, avez-vous repris sans l'accord du medecin?</span>
+                <input type="radio" class="radio" name="QS4" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS4" value="non" required><span class="colortext">non</span>
+            </fieldset></span>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Avez-vous débuté un traitement médical de longue durée (hors contraception et désensibilisation aux allergies)?</span>
+                <input type="radio" class="radio" name="QS5" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS5" value="non" required><span class="colortext">non</span>
             </fieldset></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Avez-vous débuté un traitement médical de longue durée (hors contraception et désensibilisation aux allergies)?</div>
-                <input type="radio" class="radio" name="QS5" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS5" value="non" required><div class="colortext">non</div>
             </fieldset></div>
-            </fieldset></div>
-            <div class="espacement"><fieldset class="fdst1"><div class="colortext">À ce jour:</div>
-                <div class="espacement"><fieldset class="fdst2"><div class="colortext">Ressentez-vous une douleur, un manque de force, ou une raideur suite à un problème osseux, articulaire ou musculaire (fracture, entorse, luxation, déchirure, tendinite, etc) survenu durant les 12 derniers mois?</div>
-                    <input type="radio" class="radio" name="QS6" value="oui" required><div class="colortext">oui</div>
-                    <input type="radio" class="radio" name="QS6" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst1"><span class="colortext">À ce jour:</span>
+                <span class="espacement"><fieldset class="fdst2"><span class="colortext">Ressentez-vous une douleur, un manque de force, ou une raideur suite à un problème osseux, articulaire ou musculaire (fracture, entorse, luxation, déchirure, tendinite, etc) survenu durant les 12 derniers mois?</span>
+                    <input type="radio" class="radio" name="QS6" value="oui" required><span class="colortext">oui</span>
+                    <input type="radio" class="radio" name="QS6" value="non" required><span class="colortext">non</span>
                 </fieldset></div>
-                <div class="espacement"><fieldset class="fdst2"><div class="colortext">Votre pratique sportive est-elle interrompue pour des raisons de santé?</div>
-                <input type="radio" class="radio" name="QS7" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS7" value="non" required><div class="colortext">non</div>
+                <div class="espacement"><fieldset class="fdst2"><span class="colortext">Votre pratique sportive est-elle interrompue pour des raisons de santé?</span>
+                <input type="radio" class="radio" name="QS7" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS7" value="non" required><span class="colortext">non</span>
             </fieldset></div>
-            <div class="espacement"><fieldset class="fdst2"><div class="colortext">Pensez-vous avoir besoin d'un avis médical pour poursuivre votre pratique sportive?</div>
-                <input type="radio" class="radio" name="QS8" value="oui" required><div class="colortext">oui</div>
-                <input type="radio" class="radio" name="QS8" value="non" required><div class="colortext">non</div>
+            <div class="espacement"><fieldset class="fdst2"><span class="colortext">Pensez-vous avoir besoin d'un avis médical pour poursuivre votre pratique sportive?</span>
+                <input type="radio" class="radio" name="QS8" value="oui" required><span class="colortext">oui</span>
+                <input type="radio" class="radio" name="QS8" value="non" required><span class="colortext">non</span>
             </fieldset></div>
         </fieldset></div>
-        <div class="colortext">NB: Les réponses formulées relèvent de la seule responsabilité du licensié.</div>
+        <span class="colortext">NB: Les réponses formulées relèvent de la seule responsabilité du licensié.</span>
+    
     </fieldset></div>
+    <br>
     <i>Questionnaire de santé publié par l'Arrêté du 20 avril 2017 relatif au questionnaire de santé exigé pour le renouvellement d'une license sportive au JORF n°0105 du 4 mai 2017</i>
-    </span>
-    <div class="inner-page-banner">
-    </div>
-    <% include ../../partials/footer %>
+    <br>
+    <br>
+    <a href="/MonEspace"><input id="centerbutton" type="submit" value="retour à mon espace"></a>
+    </form>
+
+       
 </html>
