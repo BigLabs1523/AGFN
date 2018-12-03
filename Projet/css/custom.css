@@ -1640,8 +1640,25 @@ section#contant h4 {
 
 /* contact */
 .cadre{
-    border: solid black;
-    width: 30%;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 1%;
+    color: #444444;
+    background-color: #ddd;
+    background-image: linear-gradient(#E5E5E5, #CFCFCF);
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 20px rgba(255, 255, 255, 0.6) inset; 
+    margin-left: 5%;  
+}
+.titre{
+    font-weight: bold;
+    font-size: 25px;
+}
+.formulaire_contact{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -22%;
 }
 
 /* fin contact */
