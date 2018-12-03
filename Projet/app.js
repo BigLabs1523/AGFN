@@ -6,7 +6,7 @@ const PORT = 8080;
 //------------------------------------------------------------------------
 
 //Appel des dossiers
-app.use('/css', express.static('CSS'));
+app.use('/css', express.static('css'));
 app.use('/images', express.static('images'));
 app.use('/js', express.static('js'))
 
