@@ -20,7 +20,7 @@ input{
 }
 
 
-form{
+.form{
 	background-image: url(../images/logo/logo_agfn_opaque.png);
 	background-size: 50%;
     background-repeat: no-repeat;
