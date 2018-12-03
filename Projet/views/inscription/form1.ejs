@@ -10,18 +10,18 @@
 		<link rel="stylesheet" href="../css/formulaire v1.css">
 	</head>
 	<body>
-		<form method="post" action="">
+		<form method="post" action="/connexion"> <!--créer la base de données pour que la redirection marche-->
 			<div class="espacement"><fieldset> <div class="colortext"> Nom de famille*</div>
 			<br>
-			<input type="text" name="Nom de famille" required></fieldset></div>
+			<input type="text" name="Nom de famille" class="champs" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Prénom*</div>
 			<br>
-			<input type="text" name="Prénom" required></fieldset></div>
+			<input type="text" name="Prénom" class="champs" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Date de Naissance*</div>
 			<br>
-			<input type="date" required>
+			<input type="date" class="colorbutton" required>
 			</fieldset></div>
 		<!--ancien format date
 			<span>
@@ -55,11 +55,11 @@
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Courriel*</div>
 			<br>
-			<input type="text" name="Adresse_Mail" required></fieldset></div>
+			<input type="text" name="Adresse_Mail" class="champs" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Numéro de Téléphone*</div>
 			<br>
-				<input type="tel" name="Numéro_de_téléphone" required placeholder="XX-XX-XX-XX-XX"></div>
+				<input type="tel" name="Numéro_de_téléphone" class="champs" required placeholder="XX-XX-XX-XX-XX"></div>
 			</fieldset>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Sexe*</div>
@@ -67,24 +67,24 @@
 			
 			<span>
 
-				<div class="colortext">Homme<input type="radio" name="Sexe" value="Homme" required></div>
+				<div class="colortext">Homme <input type="radio" class="sizeinput" name="Sexe" value="Homme" required></div>
 			
-				<div class="colortext">Femme<input type="radio" name="Sexe" value="Femme" required></div>
+				<div class="colortext">Femme <input type="radio" class="sizeinput" name="Sexe" value="Femme" required></div>
 			
-				<div class="colortext">Autre<input type="radio" name="Sexe" value="Autre" checked required></div>
+				<div class="colortext">Autre <input type="radio" name="Sexe" class="sizeinput" value="Autre" checked required></div>
 			</span></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Profession</div>
 			<br>
-			<input type="text" name="Profession (facultatif)"></fieldset></div>
+			<input type="text" class="champs" name="Profession (facultatif)"></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Photo d'Identité*</div>
 			<br>
-			<div class="espacement"></div><input type="file" name="Photo_d'identité" value="parcourir dans votre pc" required accept="image/*"></fieldset></div>
+			<div class="espacement"></div><input type="file" class="colorbutton" name="Photo_d'identité" value="parcourir dans votre pc" required accept="image/*"></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Certificat Médical (daté d'il y a moins de 3 ans)*</div>
 			<br>
-			<input type="file" name="Certificat_médical" value="parcourir dans votre pc" required></fieldset></div>
+			<input type="file" name="Certificat_médical" class="colorbutton" value="parcourir dans votre pc" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Questionnaire de Santé (à remplir tous les ans)*</div>
 				<br>
@@ -131,12 +131,12 @@
 				</fieldset></div>
 				<div class="colortext">NB: Les réponses formulées relèvent de la seule responsabilité du licensié.</div>
 			</fieldset></div>
-			<i>Questionnaire de santé publié par l'Arrêté du 20 avril 2017 relatif au questionnaire de santé exigé pour le renouvellement d'une license sportive au JORF n°0105 du 4 mai 2017</i>
+			<i class="resize">Questionnaire de santé publié par l'Arrêté du 20 avril 2017 relatif au questionnaire de santé exigé pour le renouvellement d'une license sportive au JORF n°0105 du 4 mai 2017</i>
 			</span>
 			<br>
 			<br>
 			<br>
-			<input type="submit" name="prise_info+page_suivante" value="Valider">
+			<input type="submit" class="colorbutton" name="prise_info+page_suivante" value="Valider">
 			
 		</form>
 		<div id="print*"><p>*</p></div>

@@ -1,20 +1,20 @@
 <% include ../../partials/header.ejs %>
 
 
-<form action="" method="POST">
+<form action="/MonEspace" method="POST"><!--créer la base de données pour que la redirection marche-->
     <div id="button_well_placed">
     <div class="colortext">Votre nom d'utilisateur (reçu par courriel)</div>
    
-    <input class="input" type="text">
+    <input class="input" required type="text">
     <br>
     <br>
 
     <div class="colortext">Votre mot de passe (reçu par courriel)</div>
     
-    <input class="input" type="password" minlength="8" maxlength="16">
+    <input class="input" type="password" required minlength="8" maxlength="16">
     <br>
     <br>
-    <a href="MonEspace"><input type="button" name="" class="input" value="Accéder à mon espace"></a>
+    <input type="submit" name="acceder-espace" class="input" value="Accéder à mon espace">
 </div>
 </form>
 

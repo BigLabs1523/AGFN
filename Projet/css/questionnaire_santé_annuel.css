@@ -1,12 +1,14 @@
 fieldset{
 	border-radius: 15px;
-	border-color: #4169E1;
+    border-color: #4169E1;
 }
 input{
     color: #4169E1;
 }
+
 .colortext{
     color: #4169E1;
+    text-align: center;
 }
 .espacement{
 	padding: 20px;

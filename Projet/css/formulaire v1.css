@@ -1,19 +1,48 @@
 fieldset{
 	border-radius: 15px;
 	border-color: #4169E1;
+	width: 90%;
+}
+.fdst1{
+	width: 100%;
+}
+.fdst2{
+	width: 100%;
 }
 input{
     color: #4169E1;
 }
+.resize{
+	font-size: 20px;
+}
+.sizeinput{
+	transform: scale(1.5);
+}
+.radio{
+	transform: scale(1.5);
+}
 .colortext{
-    color: #4169E1;
+	color: #4169E1;
+	font-size: 25px;
 }
 .espacement{
 	padding: 20px;
 }
-body{
+.champs{
+	height: 30px; 
+	width: 800x;
+	font-size: 25px;
+}
+.colorbutton{
+	color: #4169E1;
+	height: 30px; 
+	width: 800x;
+	font-size: 25px;
+}
+
+form{
 	background-image: url(../images/logo/logo_agfn_opaque_V2.png);
-	background-size: 125%;
+	background-size: 175%;
 	background-repeat: no-repeat;
 }
 
