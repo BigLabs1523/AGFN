@@ -86,7 +86,7 @@ app.get('/MonEspace/Questionnaire_Sante', (req, res) => {
 
 app.get('/MonEspace/Selection-Activites', (req, res) =>{
     res.render('user/select_activite');
-    console.log('Jean-Marc, JEAN-MARC SOULS!!');
+    console.log('Je fonctionne!');
 });
 
 //------------------------------------------------------------------------
