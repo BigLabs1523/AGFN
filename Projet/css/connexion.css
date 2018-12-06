@@ -5,7 +5,17 @@
 }
 .input{
     color: #4169E1;
+    height: 40px; 
+	width: 800px;
+	font-size: 25px;
+}
+.input2{
+    color: #4169E1;
+    height: 40px; 
+	width: 400px;
+	font-size: 25px;
 }
 .colortext{
-    color: #4169E1
+    color: #4169E1;
+    font-size: 25px;
 }

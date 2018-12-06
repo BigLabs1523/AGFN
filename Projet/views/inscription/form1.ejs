@@ -13,15 +13,15 @@
 		<form method="post" class="form" action="/connexion"> <!--créer la base de données pour que la redirection marche-->
 			<div class="espacement"><fieldset> <div class="colortext"> Nom de famille*</div>
 			<br>
-			<input type="text" name="Nom de famille" class="champs" required></fieldset></div>
+			<input type="text" name="Nom de famille" placeholder="Dupont" class="champs" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Prénom*</div>
 			<br>
-			<input type="text" name="Prénom" class="champs" required></fieldset></div>
+			<input type="text" name="Prénom" class="champs" placeholder="Camille" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Date de Naissance*</div>
 			<br>
-			<input type="date" class="colorbutton" required>
+			<input type="date" class="colordate" required>
 			</fieldset></div>
 		<!--ancien format date
 			<span>
@@ -55,7 +55,7 @@
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Courriel*</div>
 			<br>
-			<input type="text" name="Adresse_Mail" class="champs" required></fieldset></div>
+			<input type="email" name="Adresse_Mail" class="champs" placeholder="camille.dupont@monmail.com" required></fieldset></div>
 			<br>
 			<div class="espacement"><fieldset><div class="colortext">Numéro de Téléphone*</div>
 			<br>
@@ -139,8 +139,6 @@
 			<input type="submit" class="colorbutton" name="prise_info+page_suivante" value="Valider">
 			
 		</form>
-		<div id="print*"><p>*</p></div>
-		<div id="info*" style="visibility: hidden;"><p>Champs obligatoires</p></div>
-		<script type="text/javascript" src="/js/form1.js"></script>
+		<p id="second_colortext">*: Champs obligatoires</p>
 	</body>
 </html>

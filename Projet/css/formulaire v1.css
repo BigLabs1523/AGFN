@@ -30,13 +30,18 @@ input{
 }
 .champs{
 	height: 30px; 
-	width: 800x;
+	width: 350px;
 	font-size: 25px;
 }
 .colorbutton{
 	color: #4169E1;
 	height: 30px; 
-	width: 800x;
+	font-size: 25px;
+}
+.colordate{
+	color: #4169E1;
+	height: 30px; 
+	width: 350px;
 	font-size: 25px;
 }
 
@@ -45,4 +50,7 @@ input{
 	background-size: 175%;
 	background-repeat: no-repeat;
 }
-
+#second_colortext{
+	color: rgb(70, 200, 35);
+	font-size: 20px;
+}
